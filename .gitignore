@@ -1,3 +1,19 @@
-.env
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pkl
+
+# virtualenv
+.venv/
+venv/
+env/
+
+# dotenv
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/

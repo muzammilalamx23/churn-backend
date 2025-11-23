@@ -1,52 +1,53 @@
+# app.py
+"""Churn Insight API — Flask backend (clean + production-ready for Render)."""
+
+import os
+import json
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 import joblib
-import os
-from pymongo import MongoClient
-import json
 from dotenv import load_dotenv
 
-# Load environment variables
+# Load .env locally (Render uses environment variables set in dashboard)
 load_dotenv()
 
-# MongoDB connection
-MONGO_URI = os.getenv("MONGO_URI")
-client = MongoClient(MONGO_URI)
-db = client["churn_db"]
-predictions_collection = db["predictions"]
-
-# Flask setup
 app = Flask(__name__)
 CORS(app)
 
-# Model paths
 BASE_DIR = os.path.dirname(__file__)
-MODEL_PATH = os.path.join(BASE_DIR, "models/logistic_model.pkl")
-METRICS_PATH = os.path.join(BASE_DIR, "models/metrics.json")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "logistic_model.pkl")
+METRICS_PATH = os.path.join(BASE_DIR, "models", "metrics.json")
 
-# Load ML model
-log_model = joblib.load(MODEL_PATH)
-
+# Load model once at startup
+try:
+    log_model = joblib.load(MODEL_PATH)
+except Exception as e:
+    raise RuntimeError(f"Failed to load model at {MODEL_PATH}: {e}")
 
 @app.get("/")
 def root():
-    return jsonify({"status": "ok", "message": "Churn Insight API Running"})
+    return jsonify({"status": "ok", "message": "Churn Insight API Running"}), 200
 
 
+# ✅ CLEAN + FIXED PREDICT ENDPOINT (NO MONGO)
 @app.post("/predict")
 def predict():
-    data = request.get_json()
+    data = request.get_json(silent=True)
+    if not data:
+        return jsonify({"error": "Invalid or missing JSON body"}), 400
 
+    # Required input fields
     required_fields = [
         "Gender", "Tenure Months", "Internet Service",
         "Streaming Movies", "Monthly Charges", "Total Charges"
     ]
 
-    for f in required_fields:
-        if f not in data:
-            return jsonify({"error": f"Missing field: {f}"}), 400
+    missing = [f for f in required_fields if f not in data]
+    if missing:
+        return jsonify({"error": "Missing fields", "fields": missing}), 400
 
+    # Convert request into a DataFrame
     try:
         df = pd.DataFrame([{
             "Gender": data["Gender"],
@@ -56,43 +57,37 @@ def predict():
             "Monthly Charges": float(data["Monthly Charges"]),
             "Total Charges": float(data["Total Charges"])
         }])
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
+    except Exception as exc:
+        return jsonify({"error": "Invalid field types", "message": str(exc)}), 400
 
-    pred = log_model.predict(df)[0]
-    prob = log_model.predict_proba(df)[0][1]
+    # Make prediction
+    pred = int(log_model.predict(df)[0])
+    prob = float(log_model.predict_proba(df)[0][1])
 
     result = {
         "customer_input": data,
         "logistic_regression": {
             "prediction": "Yes" if pred == 1 else "No",
-            "probability": round(float(prob), 4),
-            "risk_percent": round(float(prob) * 100, 2)
+            "probability": round(prob, 4),
+            "risk_percent": round(prob * 100, 2)
         }
     }
 
-    predictions_collection.insert_one(json.loads(json.dumps(result)))
-
-    return jsonify(result), 201
+    return jsonify(result), 200
 
 
-@app.get("/predictions")
-def get_predictions():
-    docs = list(predictions_collection.find({}, {"_id": 0}))
-    docs.reverse()
-    return jsonify(docs)
-
-
+# ✅ GET MODEL ACCURACY
 @app.get("/accuracy")
 def get_accuracy():
     if not os.path.exists(METRICS_PATH):
         return jsonify({"error": "metrics.json missing"}), 404
-
+    
     with open(METRICS_PATH, "r") as f:
         metrics = json.load(f)
-
-    return jsonify(metrics)
+    
+    return jsonify(metrics), 200
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    port = int(os.getenv("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
