@@ -1,0 +1,5546 @@
+[
+  {
+    "timestamp": "2025-11-22T14:23:33.707123Z",
+    "input": {
+      "Gender": "",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "",
+      "Monthly Charges": 60,
+      "Total Charges": 566
+    },
+    "prediction": 1,
+    "probability": 0.7630936472880377,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.3080495417914517
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-22T14:23:29.664189Z",
+    "input": {
+      "Gender": "",
+      "Tenure Months": 12,
+      "Internet Service": "",
+      "Streaming Movies": "",
+      "Monthly Charges": 60,
+      "Total Charges": 566
+    },
+    "prediction": 1,
+    "probability": 0.5128080345683013,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.3080495417914517
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.09471980299451134
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-22T14:23:23.793301Z",
+    "input": {
+      "Gender": "",
+      "Tenure Months": 12,
+      "Internet Service": "",
+      "Streaming Movies": "",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5231789866554389,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.2665104405404609
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.09471980299451134
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-22T14:23:13.857873Z",
+    "input": {
+      "Gender": "Male",
+      "Tenure Months": 12,
+      "Internet Service": "DSL",
+      "Streaming Movies": "No",
+      "Monthly Charges": 250,
+      "Total Charges": 2333
+    },
+    "prediction": 0,
+    "probability": 0.010504373360203543,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -3.5557680500518702
+      },
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_DSL",
+        "impact": -0.7424826948700339
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-22T14:16:46.022191Z",
+    "input": {
+      "Gender": "",
+      "Tenure Months": 16,
+      "Internet Service": "DSL",
+      "Streaming Movies": "",
+      "Monthly Charges": 120,
+      "Total Charges": 800
+    },
+    "prediction": 0,
+    "probability": 0.11517227957015959,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "num__Tenure Months",
+        "impact": 0.9745902532714411
+      },
+      {
+        "feature": "cat__Internet Service_DSL",
+        "impact": -0.7424826948700339
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-22T14:16:33.251682Z",
+    "input": {
+      "Gender": "",
+      "Tenure Months": 12,
+      "Internet Service": "",
+      "Streaming Movies": "",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5231789866554389,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.2665104405404609
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.09471980299451134
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-22T13:03:40.328577Z",
+    "input": {
+      "Gender": "",
+      "Tenure Months": 12,
+      "Internet Service": "",
+      "Streaming Movies": "",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5231789866554389,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.2665104405404609
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.09471980299451134
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-22T12:59:21.971816Z",
+    "input": {
+      "Gender": "",
+      "Tenure Months": 12,
+      "Internet Service": "",
+      "Streaming Movies": "",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5231789866554389,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.2665104405404609
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.09471980299451134
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T20:36:48.946912Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5331764880691495,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T20:27:29.970891Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.7775375660154148,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T20:10:00.705415Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85
+    },
+    "prediction": 1,
+    "probability": 0.6754843355766025,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T20:06:47.190696Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85
+    },
+    "prediction": 1,
+    "probability": 0.6754843355766025,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T19:57:19.453025Z",
+    "input": {
+      "Gender": "Male",
+      "Tenure Months": 12,
+      "Internet Service": "DSL",
+      "Streaming Movies": "No",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 0,
+    "probability": 0.23738859196914947,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_DSL",
+        "impact": -0.7424826948700339
+      },
+      {
+        "feature": "cat__Gender_Male",
+        "impact": -0.4097357320192222
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T19:57:02.119687Z",
+    "input": {
+      "Gender": "Male",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5415665215227586,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      },
+      {
+        "feature": "cat__Gender_Male",
+        "impact": -0.4097357320192222
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T19:56:53.529391Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5331764880691495,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T19:56:45.078569Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "No",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 0,
+    "probability": 0.38738516110617843,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.2665104405404609
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T19:56:40.281132Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5331764880691495,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T19:56:17.982045Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.7775375660154148,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T19:26:44.152284Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.7775375660154148,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:54:24.486893Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.7775375660154148,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:44:31.340136Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.7775375660154148,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:44:22.213693Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "No",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 0,
+    "probability": 0.38738516110617843,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.2665104405404609
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:41:11.352397Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "No",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 0,
+    "probability": 0.38738516110617843,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      },
+      {
+        "feature": "num__Total Charges",
+        "impact": -0.2665104405404609
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:41:07.765647Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.5331764880691495,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:40:50.058929Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 12,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 60,
+      "Total Charges": 800
+    },
+    "prediction": 1,
+    "probability": 0.7775375660154148,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.2110682397236865
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:49.433930Z",
+    "input": {
+      "Gender": "Male",
+      "Tenure Months": 5,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.34445963191816986,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.624904716015116
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:44.562660Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 5,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.33687926720375405,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.624904716015116
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:39.348718Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 5,
+      "Internet Service": "DSL",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.19470624130395803,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.624904716015116
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "cat__Internet Service_DSL",
+        "impact": -0.7424826948700339
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:35.141792Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 5,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 1,
+    "probability": 0.6085544625761187,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.624904716015116
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:23.832037Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 3,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 1,
+    "probability": 0.6363319850229697,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.7431437092412385
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:19.888256Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 3,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "No",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.4920658702982987,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.7431437092412385
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:15.175118Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 3,
+      "Internet Service": "None",
+      "Streaming Movies": "No",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.24045042333629693,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.7431437092412385
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:05.648585Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 3,
+      "Internet Service": "None",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.3637803827257059,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.7431437092412385
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "cat__Streaming Movies_Yes",
+        "impact": 0.4836039917941167
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:39:01.311629Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 3,
+      "Internet Service": "DSL",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.2139166852287628,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.7431437092412385
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "cat__Internet Service_DSL",
+        "impact": -0.7424826948700339
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:38:28.501711Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 3,
+      "Internet Service": "Fiber optic",
+      "Streaming Movies": "Yes",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 1,
+    "probability": 0.6363319850229697,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.7431437092412385
+      },
+      {
+        "feature": "cat__Internet Service_Fiber optic",
+        "impact": 1.1184724840011704
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:38:11.144519Z",
+    "input": {
+      "Gender": "Female",
+      "Tenure Months": 3,
+      "Internet Service": "None",
+      "Streaming Movies": "No",
+      "Monthly Charges": 120,
+      "Total Charges": 399
+    },
+    "prediction": 0,
+    "probability": 0.24045042333629693,
+    "top_factors": [
+      {
+        "feature": "num__Tenure Months",
+        "impact": 1.7431437092412385
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": -1.058065834809609
+      },
+      {
+        "feature": "cat__Gender_Female",
+        "impact": -0.4434852176422717
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:20:25.537866Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "hell0",
+      "Tenure Months": 0,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "Nofbfbdb",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yescbdbdf",
+      "Streaming Movies": "Yes",
+      "Contract": "bdfbf",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1255555,
+      "Count": 10,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 2.59622593060993e-37,
+    "top_factors": [
+      {
+        "feature": "num__Total Charges",
+        "impact": -77.20881437616997
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:20:23.793454Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "hell0",
+      "Tenure Months": 0,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "Nofbfbdb",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yescbdbdf",
+      "Streaming Movies": "Yes",
+      "Contract": "bdfbf",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1255555,
+      "Count": 10,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 2.59622593060993e-37,
+    "top_factors": [
+      {
+        "feature": "num__Total Charges",
+        "impact": -77.20881437616997
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:20:09.497902Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "hell0",
+      "Tenure Months": 0,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1255555,
+      "Count": 10,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 2.171127012575827e-37,
+    "top_factors": [
+      {
+        "feature": "num__Total Charges",
+        "impact": -77.20881437616997
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:15:35.377320Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1255555,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 1.1079185717617858e-37,
+    "top_factors": [
+      {
+        "feature": "num__Total Charges",
+        "impact": -77.20881437616997
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:05:34.110708Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 55,
+      "Total Charges": 4900,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00024644267140445095,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:04:29.774129Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 55,
+      "Total Charges": 4900,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00024644267140445095,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:04:28.448955Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 55,
+      "Total Charges": 4900,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00024644267140445095,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:04:21.309519Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 555,
+      "Total Charges": 4900,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.011195009350959002,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 3.751099621186164
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T18:04:03.028713Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 99,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004623538444148634,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:57:35.189115Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1255555,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 1.1079185717617858e-37,
+    "top_factors": [
+      {
+        "feature": "num__Total Charges",
+        "impact": -77.20881437616997
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:57:20.297718Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1222,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040232107400331126,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:54:44.039562Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1222,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040232107400331126,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:54:37.334768Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:52:13.936890Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 99,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004623538444148634,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:52:13.588602Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 99,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004623538444148634,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:52:13.212932Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 99,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004623538444148634,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:52:12.472557Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 99,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004623538444148634,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:52:11.487621Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 99,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004623538444148634,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T17:51:19.966873Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:06:20.765639Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 118,
+      "Total Charges": 118,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005341560373490267,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:06:19.543107Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 118,
+      "Total Charges": 118,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005341560373490267,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:05:40.562012Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115,
+      "Total Charges": 180,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000520047351698464,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:05:39.031581Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115,
+      "Total Charges": 180,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000520047351698464,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:04:16.645180Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 80,
+      "Total Charges": 299,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00039497260542140864,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:01:31.968903Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 80,
+      "Total Charges": 299,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00039497260542140864,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:01:30.841796Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 80,
+      "Total Charges": 299,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00039497260542140864,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T16:01:23.068987Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 239.45,
+      "Total Charges": 299,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0013372056074882801,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.335813251582511
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:14:16.671272Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 239.45,
+      "Total Charges": 299,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0013372056074882801,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.335813251582511
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:13:54.691260Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "One year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 239.45,
+      "Total Charges": 2868,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0009536281797771531,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.335813251582511
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:08:25.496009Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000524360923653068,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:08:25.084615Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000524360923653068,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:08:24.632382Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000524360923653068,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:08:24.012784Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000524360923653068,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:08:23.203061Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000524360923653068,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:08:22.071241Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000524360923653068,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T15:07:59.460457Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:42:38.030771Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115,
+      "Total Charges": 150,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005210088911363153,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:40:15.557067Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005227782438637196,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:40:01.185699Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 115.45,
+      "Total Charges": 150.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005243334802481066,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:33:03.028874Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 95.45,
+      "Total Charges": 190,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004488583139728676,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:33:02.037720Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 95.45,
+      "Total Charges": 190,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004488583139728676,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:33:00.108045Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 95.45,
+      "Total Charges": 190,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004488583139728676,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:28:13.450813Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Two year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 103,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0003391575608274128,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:27:20.908085Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 103,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0004310222174525033,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:27:13.361657Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1073,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040602963458826423,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:27:10.885312Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1073,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040602963458826423,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:17:57.397225Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1800,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000388252486802311,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:17:55.352250Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1800,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000388252486802311,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:17:53.372326Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1800,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.000388252486802311,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:17:33.669135Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:17:32.660708Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:17:31.667850Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:14:44.670621Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:13:56.299516Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 100,
+      "Total Charges": 250,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00046167105515368834,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T14:13:44.230561Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 100,
+      "Total Charges": 200,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00046309468943617785,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T12:34:03.465069Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T12:24:50.575055Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 199.45,
+      "Total Charges": 300,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0009877496126875392,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.0296448003572023
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T12:24:26.951975Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040495356860286753,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:33:56.668140Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 180.45,
+      "Total Charges": 300,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0008516395498924459,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.8842147860251806
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:32:52.171413Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 180.45,
+      "Total Charges": 300,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0008516395498924459,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.8842147860251806
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:32:22.414114Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 179.45,
+      "Total Charges": 250.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0008502331648439548,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 0.8765605747445478
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:30:51.242080Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 119.45,
+      "Total Charges": 190,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005377250417023621,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:30:49.841627Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 119.45,
+      "Total Charges": 190,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005377250417023621,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:30:20.432667Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "One year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 250.45,
+      "Total Charges": 399.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0012074556154263146,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.4200095756694706
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:30:15.531203Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 250.45,
+      "Total Charges": 399.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0014455023533206414,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.4200095756694706
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:30:13.392048Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 250.45,
+      "Total Charges": 399.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0014455023533206414,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.4200095756694706
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:29:24.260355Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 110.45,
+      "Total Charges": 130.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0005037788856235208,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:25:19.855468Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Two year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 899.45,
+      "Total Charges": 6000.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.10385425479055173,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 6.387592696800103
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:25:10.083393Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "One year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 899.45,
+      "Total Charges": 6000.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.10953421535372447,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 6.387592696800103
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:25:00.738246Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "One year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 6000.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00024959561892343114,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:24:54.809642Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "One year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 6000.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0002503383556531383,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:24:51.572564Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 6000.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00029974854103241073,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:24:43.731068Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 5067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00031747695626266304,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:24:37.670294Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1567.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0003938429667113282,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:19:46.093948Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:19:40.799785Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "One year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 299.45,
+      "Total Charges": 2399,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.001552807917848476,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.7950659284204737
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:19:22.765156Z",
+    "input": {
+      "Gender": "Male",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040495356860286753,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:55.022981Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Two year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 299,
+      "Total Charges": 2399,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0014623961041755407,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.7916215333441892
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:54.011801Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Two year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 299,
+      "Total Charges": 2399,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0014623961041755407,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.7916215333441892
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:41.275281Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Two year",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 500,
+      "Total Charges": 10003,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0042516967540314815,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 3.330118000751365
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:33.695544Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 500,
+      "Total Charges": 9999,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.005398917871521909,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 3.330118000751365
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:32.766807Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 500,
+      "Total Charges": 9999,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.005398917871521909,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 3.330118000751365
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:26.113742Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 500,
+      "Total Charges": 5000,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.007331829687758188,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 3.330118000751365
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:25.127598Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 500,
+      "Total Charges": 5000,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.007331829687758188,
+    "top_factors": [
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 3.330118000751365
+      },
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:17:16.303458Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 250,
+      "Total Charges": 5000,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0010886537855338213,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.416565180593186
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:14:33.877963Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 250,
+      "Total Charges": 2000,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.001309363285401687,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "num__Monthly Charges",
+        "impact": 1.416565180593186
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:13:58.184211Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:10:57.444901Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:09:03.699843Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T08:07:01.768918Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943,
+    "top_factors": [
+      {
+        "feature": "num__Churn Value",
+        "impact": -3.2021274045268004
+      },
+      {
+        "feature": "num__Churn Score",
+        "impact": -1.5659371323609614
+      },
+      {
+        "feature": "cat__Country_United States",
+        "impact": -0.43376918161465106
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-20T07:41:51.353065Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 89.45,
+      "Total Charges": 1067.85,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.00040615842553176943
+  },
+  {
+    "timestamp": "2025-11-20T07:27:12.922970Z",
+    "input": {
+      "Gender": "Female",
+      "Senior Citizen": "No",
+      "Partner": "Yes",
+      "Dependents": "No",
+      "Tenure Months": 12,
+      "Phone Service": "Yes",
+      "Multiple Lines": "No",
+      "Internet Service": "Fiber optic",
+      "Online Security": "No",
+      "Online Backup": "No",
+      "Device Protection": "No",
+      "Tech Support": "No",
+      "Streaming TV": "Yes",
+      "Streaming Movies": "Yes",
+      "Contract": "Month-to-month",
+      "Paperless Billing": "Yes",
+      "Payment Method": "Credit card",
+      "Monthly Charges": 250,
+      "Total Charges": 3000,
+      "Count": 1,
+      "Zip Code": 90001,
+      "Latitude": 34.05,
+      "Longitude": -118.24,
+      "Churn Value": 0,
+      "Churn Score": 32,
+      "CLTV": 2500,
+      "Country": "United States",
+      "State": "California",
+      "City": "Los Angeles"
+    },
+    "prediction": 0,
+    "probability": 0.0012312285829314594
+  }
+]
